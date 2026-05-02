@@ -1,0 +1,2059 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bake Ville Abuja | Premium Comfort Food, Catering, and WhatsApp Orders</title>
+    <meta
+      name="description"
+      content="Bake Ville is an Abuja food brand serving signature mandi platters, burgers, kebabs, and catering trays with fast WhatsApp ordering."
+    />
+    <meta name="theme-color" content="#9f4d25" />
+    <meta property="og:title" content="Bake Ville Abuja" />
+    <meta
+      property="og:description"
+      content="Modern comfort food, premium trays, and simple WhatsApp ordering for Abuja."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("has-js");
+    </script>
+    <style>
+      :root {
+        --page: #fbf5ee;
+        --page-deep: #f2e7dc;
+        --card: rgba(255, 252, 247, 0.86);
+        --card-strong: #fffdf9;
+        --card-dark: #2f1d15;
+        --card-dark-soft: #4a2c20;
+        --accent: #9f4d25;
+        --accent-strong: #d2682c;
+        --accent-soft: #f7e3d5;
+        --olive: #728061;
+        --text: #261912;
+        --text-soft: #6d564a;
+        --text-inverse: rgba(255, 248, 242, 0.84);
+        --border: rgba(109, 61, 37, 0.12);
+        --shadow-soft: 0 28px 70px -44px rgba(59, 34, 22, 0.32);
+        --shadow-strong: 0 50px 120px -60px rgba(36, 19, 12, 0.55);
+        --radius-xl: 32px;
+        --radius-lg: 24px;
+        --radius-md: 18px;
+        --radius-sm: 14px;
+        --shell: 1200px;
+        --header-height: 5.4rem;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 7rem;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background:
+          radial-gradient(circle at top left, rgba(210, 104, 44, 0.14), transparent 24%),
+          radial-gradient(circle at top right, rgba(114, 128, 97, 0.13), transparent 22%),
+          linear-gradient(180deg, #fdf9f4 0%, #fbf4ec 48%, #f8efe6 100%);
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      button,
+      input,
+      textarea,
+      select {
+        font: inherit;
+      }
+
+      button {
+        color: inherit;
+      }
+
+      :focus-visible {
+        outline: 3px solid rgba(159, 77, 37, 0.28);
+        outline-offset: 3px;
+      }
+
+      ::selection {
+        background: rgba(210, 104, 44, 0.2);
+        color: #1f1611;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+
+      .skip-link {
+        position: absolute;
+        left: 1rem;
+        top: -4rem;
+        z-index: 100;
+        padding: 0.85rem 1rem;
+        border-radius: 999px;
+        background: #ffffff;
+        box-shadow: var(--shadow-soft);
+      }
+
+      .skip-link:focus {
+        top: 1rem;
+      }
+
+      .shell {
+        width: min(calc(100% - 2rem), var(--shell));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        border-bottom: 1px solid rgba(69, 44, 31, 0.06);
+        background: rgba(255, 252, 248, 0.74);
+        backdrop-filter: blur(14px);
+      }
+
+      .topbar__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        min-height: 3rem;
+        font-size: 0.94rem;
+        color: rgba(38, 25, 18, 0.78);
+      }
+
+      .topbar__inner p {
+        margin: 0;
+      }
+
+      .topbar__inner a {
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(251, 245, 238, 0.8);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid rgba(101, 58, 36, 0.08);
+      }
+
+      .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        min-height: var(--header-height);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.95rem;
+      }
+
+      .brand__mark {
+        display: grid;
+        place-items: center;
+        width: 3.1rem;
+        height: 3.1rem;
+        border-radius: 999px;
+        background: linear-gradient(145deg, #cf672c, #8f431f);
+        color: #fff7f1;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        box-shadow: 0 20px 42px -28px rgba(159, 77, 37, 0.95);
+      }
+
+      .brand__text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
+      }
+
+      .brand__text strong {
+        font-size: 1.16rem;
+        font-weight: 800;
+      }
+
+      .brand__text span {
+        text-transform: uppercase;
+        letter-spacing: 0.24em;
+        font-size: 0.7rem;
+        color: rgba(38, 25, 18, 0.56);
+      }
+
+      .menu-toggle {
+        display: none;
+        width: 3rem;
+        height: 3rem;
+        padding: 0;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.22rem;
+        cursor: pointer;
+      }
+
+      .menu-toggle span:not(.sr-only) {
+        width: 1rem;
+        height: 2px;
+        border-radius: 999px;
+        background: var(--text);
+        transition: transform 180ms ease, opacity 180ms ease;
+      }
+
+      .menu-toggle[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(0.24rem) rotate(45deg);
+      }
+
+      .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .menu-toggle[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(-0.24rem) rotate(-45deg);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 1.4rem;
+      }
+
+      .nav__links {
+        display: flex;
+        align-items: center;
+        gap: 1.35rem;
+      }
+
+      .nav__links a {
+        color: rgba(38, 25, 18, 0.78);
+        font-weight: 600;
+        font-size: 0.96rem;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        min-height: 3.2rem;
+        padding: 0.9rem 1.35rem;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        font-weight: 700;
+        transition:
+          transform 180ms ease,
+          box-shadow 180ms ease,
+          background-color 180ms ease,
+          border-color 180ms ease,
+          color 180ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-1px);
+      }
+
+      .button--solid {
+        background: linear-gradient(145deg, var(--accent), var(--accent-strong));
+        color: #fff9f5;
+        box-shadow: 0 22px 44px -28px rgba(159, 77, 37, 0.92);
+      }
+
+      .button--ghost {
+        background: rgba(255, 255, 255, 0.78);
+        border-color: var(--border);
+        color: var(--text);
+      }
+
+      .button--light {
+        background: #fffaf6;
+        color: var(--text);
+      }
+
+      .button--outline-light {
+        background: transparent;
+        border-color: rgba(255, 248, 242, 0.24);
+        color: #fffaf6;
+      }
+
+      .button--small {
+        min-height: 2.8rem;
+        padding-inline: 1.1rem;
+      }
+
+      .button--block {
+        width: 100%;
+      }
+
+      .section {
+        padding: 5.5rem 0;
+      }
+
+      .section--soft {
+        padding-top: 2.5rem;
+      }
+
+      .section--last {
+        padding-bottom: 8rem;
+      }
+
+      .section-header {
+        max-width: 44rem;
+        margin-bottom: 2rem;
+      }
+
+      .section-tag,
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 0 1rem;
+        font-size: 0.78rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.26em;
+      }
+
+      .eyebrow {
+        padding: 0.92rem 1.18rem;
+        border-radius: 999px;
+        background: rgba(255, 248, 241, 0.92);
+        border: 1px solid rgba(210, 104, 44, 0.2);
+        color: var(--accent);
+      }
+
+      .section-tag {
+        color: var(--accent);
+      }
+
+      .section-tag--light {
+        color: rgba(255, 248, 242, 0.72);
+      }
+
+      .section-header h2,
+      .hero__content h1,
+      .menu-sidebar h2,
+      .process-lead h2,
+      .catering-panel h2,
+      .contact-card h2,
+      .cta-panel h2 {
+        margin: 0;
+        font-family: "Fraunces", serif;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        line-height: 0.98;
+      }
+
+      .hero__content h1 {
+        max-width: 11ch;
+        font-size: clamp(3.3rem, 6vw, 6.5rem);
+      }
+
+      .section-header h2,
+      .menu-sidebar h2,
+      .process-lead h2,
+      .catering-panel h2,
+      .contact-card h2,
+      .cta-panel h2 {
+        font-size: clamp(2.5rem, 4vw, 4.7rem);
+        margin-bottom: 1rem;
+      }
+
+      .hero__lede,
+      .section-header p,
+      .story-card p,
+      .pick-card p,
+      .menu-note p,
+      .menu-card p,
+      .process-lead p,
+      .timeline-card p,
+      .catering-panel p,
+      .quote-card p,
+      .contact-card p,
+      .cta-panel p,
+      .hero__summary p,
+      .floating-card p {
+        color: var(--text-soft);
+        line-height: 1.8;
+      }
+
+      .hero {
+        padding: 3.5rem 0 4rem;
+      }
+
+      .hero__layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
+        gap: 2.4rem;
+        align-items: center;
+      }
+
+      .hero__content {
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero__lede {
+        max-width: 40rem;
+        font-size: 1.16rem;
+      }
+
+      .hero__cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 2rem 0;
+      }
+
+      .hero__metrics {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .metric,
+      .story-card,
+      .pick-card,
+      .menu-note,
+      .menu-card,
+      .timeline-card,
+      .contact-row,
+      .contact-card,
+      .cta-panel,
+      .quote-card {
+        background: var(--card);
+        border: 1px solid rgba(255, 255, 255, 0.56);
+        box-shadow: var(--shadow-soft);
+      }
+
+      .metric {
+        padding: 1.3rem 1.1rem;
+        border-radius: var(--radius-md);
+      }
+
+      .metric span,
+      .menu-note strong,
+      .hero__summary span,
+      .floating-card span,
+      .contact-row span,
+      .cta-panel__meta span {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-size: 0.72rem;
+        color: rgba(71, 47, 35, 0.56);
+        margin-bottom: 0.62rem;
+      }
+
+      .metric strong,
+      .menu-note strong,
+      .hero__summary strong,
+      .floating-card strong,
+      .contact-row strong,
+      .cta-panel__meta strong {
+        font-size: 1.02rem;
+      }
+
+      .hero__visual {
+        position: relative;
+        min-height: 100%;
+      }
+
+      .hero__panel {
+        position: relative;
+        overflow: hidden;
+        padding: 1rem;
+        border-radius: calc(var(--radius-xl) + 4px);
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 250, 244, 0.88)),
+          rgba(255, 255, 255, 0.76);
+        border: 1px solid rgba(255, 255, 255, 0.58);
+        box-shadow: var(--shadow-strong);
+      }
+
+      .hero__image-wrap {
+        position: relative;
+      }
+
+      .hero__image {
+        width: 100%;
+        aspect-ratio: 5 / 6;
+        object-fit: cover;
+        border-radius: calc(var(--radius-xl) - 8px);
+      }
+
+      .hero__badge {
+        position: absolute;
+        left: 1.15rem;
+        right: 1.15rem;
+        bottom: 1.15rem;
+        padding: 1rem 1.1rem;
+        border-radius: 1.3rem;
+        background: linear-gradient(180deg, rgba(28, 18, 13, 0.14), rgba(28, 18, 13, 0.8));
+        color: #fff8f1;
+      }
+
+      .hero__badge span {
+        display: block;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.22em;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        color: rgba(255, 248, 242, 0.7);
+      }
+
+      .hero__badge strong {
+        font-family: "Fraunces", serif;
+        font-size: 1.6rem;
+        letter-spacing: -0.03em;
+      }
+
+      .hero__summary {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem 1.4rem;
+        align-items: start;
+        margin-top: 1rem;
+        padding: 1.1rem 0.4rem 0;
+      }
+
+      .hero__summary p {
+        margin: 0;
+      }
+
+      .floating-card {
+        position: absolute;
+        z-index: 1;
+        width: min(16rem, calc(100% - 3rem));
+        padding: 1rem 1.1rem;
+        border-radius: 1.4rem;
+        backdrop-filter: blur(12px);
+        animation: drift 8s ease-in-out infinite;
+      }
+
+      .floating-card p {
+        margin: 0;
+      }
+
+      .floating-card--top {
+        top: -1.25rem;
+        left: -1rem;
+      }
+
+      .floating-card--bottom {
+        right: -1rem;
+        bottom: 2rem;
+        animation-delay: 1.3s;
+      }
+
+      .trust-strip {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        margin-top: 1.8rem;
+      }
+
+      .trust-chip {
+        padding: 1rem 1.05rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.56);
+        box-shadow: var(--shadow-soft);
+        text-align: center;
+        font-weight: 700;
+        color: rgba(38, 25, 18, 0.8);
+      }
+
+      .section-shell {
+        padding: 2rem;
+        border-radius: var(--radius-xl);
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 251, 247, 0.92)),
+          rgba(255, 255, 255, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.56);
+        box-shadow: var(--shadow-soft);
+      }
+
+      .story-grid,
+      .picks-grid,
+      .quote-grid,
+      .contact-list {
+        display: grid;
+        gap: 1.2rem;
+      }
+
+      .story-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .story-card,
+      .pick-card {
+        padding: 1.8rem;
+        border-radius: var(--radius-lg);
+      }
+
+      .story-card__number {
+        display: inline-grid;
+        place-items: center;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.15rem;
+        border-radius: 1rem;
+        background: rgba(210, 104, 44, 0.14);
+        color: var(--accent);
+        font-weight: 800;
+      }
+
+      .story-card h3,
+      .pick-card h3,
+      .menu-card h3,
+      .timeline-card h3,
+      .quote-card h3 {
+        margin: 0 0 0.75rem;
+        font-family: "Fraunces", serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+      }
+
+      .picks-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .pick-card {
+        overflow: hidden;
+        padding: 0;
+      }
+
+      .pick-card img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+      }
+
+      .pick-card__body {
+        padding: 1.4rem;
+      }
+
+      .pick-card__meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+        margin-bottom: 0.95rem;
+      }
+
+      .pill,
+      .price-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 2.1rem;
+        padding: 0.35rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+      }
+
+      .pill {
+        background: rgba(210, 104, 44, 0.12);
+        color: var(--accent);
+      }
+
+      .price-pill {
+        background: rgba(38, 25, 18, 0.9);
+        color: #fff8f2;
+      }
+
+      .menu-zone {
+        display: grid;
+        grid-template-columns: minmax(18rem, 22rem) minmax(0, 1fr);
+        gap: 1.4rem;
+        align-items: start;
+      }
+
+      .menu-sidebar,
+      .menu-board,
+      .process-lead,
+      .catering-card,
+      .catering-panel {
+        padding: 2rem;
+        border-radius: var(--radius-xl);
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(255, 252, 247, 0.92)),
+          rgba(255, 255, 255, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.56);
+        box-shadow: var(--shadow-soft);
+      }
+
+      .menu-sidebar {
+        position: sticky;
+        top: calc(var(--header-height) + 1.5rem);
+      }
+
+      .menu-note {
+        padding: 1.2rem 1.25rem;
+        border-radius: 1.35rem;
+        margin: 1.8rem 0;
+      }
+
+      .menu-note p {
+        margin: 0;
+      }
+
+      .menu-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-bottom: 1.25rem;
+      }
+
+      .menu-tab {
+        min-height: 3rem;
+        padding: 0.8rem 1.15rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.74);
+        color: var(--text);
+        font-weight: 700;
+        cursor: pointer;
+        transition:
+          background-color 180ms ease,
+          color 180ms ease,
+          box-shadow 180ms ease,
+          border-color 180ms ease;
+      }
+
+      .menu-tab.is-active {
+        background: linear-gradient(145deg, var(--accent), var(--accent-strong));
+        color: #fff9f5;
+        border-color: transparent;
+        box-shadow: 0 20px 36px -28px rgba(159, 77, 37, 0.86);
+      }
+
+      .menu-grid {
+        display: grid;
+        gap: 1.2rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .menu-card {
+        overflow: hidden;
+        border-radius: var(--radius-lg);
+        transition: transform 220ms ease, box-shadow 220ms ease;
+      }
+
+      .menu-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-strong);
+      }
+
+      .menu-card__media {
+        position: relative;
+      }
+
+      .menu-card__media img {
+        width: 100%;
+        aspect-ratio: 4 / 3.1;
+        object-fit: cover;
+      }
+
+      .menu-card__meta {
+        position: absolute;
+        inset: 1rem 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.7rem;
+      }
+
+      .menu-card__body {
+        padding: 1.4rem;
+        background: rgba(255, 252, 249, 0.95);
+      }
+
+      .menu-card__body p {
+        margin: 0 0 1.2rem;
+      }
+
+      .process-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 1.3rem;
+        align-items: start;
+      }
+
+      .process-lead {
+        background: linear-gradient(160deg, #311f17 0%, #472c21 100%);
+        color: #fff8f1;
+        box-shadow: var(--shadow-strong);
+      }
+
+      .process-lead p {
+        color: rgba(255, 248, 242, 0.76);
+      }
+
+      .process-strip {
+        margin-top: 1.8rem;
+        padding: 1.15rem 1.2rem;
+        border-radius: 1.25rem;
+        background: rgba(255, 248, 242, 0.08);
+        border: 1px solid rgba(255, 248, 242, 0.1);
+        color: rgba(255, 248, 242, 0.82);
+      }
+
+      .timeline {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.1rem;
+      }
+
+      .timeline-card {
+        padding: 1.75rem;
+        border-radius: var(--radius-lg);
+      }
+
+      .timeline-card__index {
+        display: inline-grid;
+        place-items: center;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        background: rgba(114, 128, 97, 0.14);
+        color: var(--olive);
+        font-weight: 800;
+      }
+
+      .catering-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 0.96fr) minmax(0, 1.04fr);
+        gap: 1.4rem;
+        align-items: stretch;
+      }
+
+      .catering-card {
+        overflow: hidden;
+        padding: 0;
+      }
+
+      .catering-card img {
+        width: 100%;
+        height: 100%;
+        min-height: 24rem;
+        object-fit: cover;
+      }
+
+      .catering-panel__list,
+      .cta-panel__meta {
+        display: grid;
+        gap: 0.9rem;
+      }
+
+      .catering-panel__list div,
+      .cta-panel__meta div {
+        padding: 1rem 1.05rem;
+        border-radius: 1.15rem;
+        background: rgba(255, 255, 255, 0.74);
+        border: 1px solid rgba(210, 104, 44, 0.1);
+      }
+
+      .catering-panel__actions,
+      .cta-panel__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.8rem;
+      }
+
+      .quote-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .quote-card {
+        padding: 1.8rem;
+        border-radius: var(--radius-lg);
+      }
+
+      .quote-card h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.9rem;
+      }
+
+      .quote-card footer {
+        margin-top: 1rem;
+        color: rgba(38, 25, 18, 0.66);
+        font-weight: 700;
+      }
+
+      .contact-layout {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.3rem;
+      }
+
+      .contact-card,
+      .cta-panel {
+        padding: 2rem;
+        border-radius: var(--radius-xl);
+      }
+
+      .contact-list {
+        margin-top: 1.7rem;
+      }
+
+      .contact-row {
+        padding: 1.2rem 1.25rem;
+        border-radius: 1.2rem;
+      }
+
+      .cta-panel {
+        background: linear-gradient(165deg, #b75c2a 0%, #953f1d 100%);
+        color: #fff8f1;
+        box-shadow: var(--shadow-strong);
+      }
+
+      .cta-panel p {
+        color: rgba(255, 248, 242, 0.84);
+      }
+
+      .cta-panel__meta {
+        margin: 1.7rem 0;
+      }
+
+      .cta-panel__meta div {
+        background: rgba(255, 248, 242, 0.1);
+        border-color: rgba(255, 248, 242, 0.12);
+      }
+
+      .cta-panel__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-top: 1.5rem;
+        margin-top: 1.5rem;
+        border-top: 1px solid rgba(255, 248, 242, 0.16);
+        color: rgba(255, 248, 242, 0.74);
+        font-size: 0.95rem;
+      }
+
+      .sticky-order {
+        position: fixed;
+        left: 1rem;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: none;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        border-radius: 1.4rem;
+        background: rgba(255, 252, 247, 0.92);
+        border: 1px solid rgba(255, 255, 255, 0.62);
+        box-shadow: var(--shadow-strong);
+        backdrop-filter: blur(16px);
+      }
+
+      .sticky-order .button {
+        min-height: 3rem;
+        flex: 1 1 0;
+        padding-inline: 0.9rem;
+      }
+
+      .has-js .reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 650ms ease,
+          transform 650ms ease;
+      }
+
+      .has-js .reveal.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .delay-1 {
+        transition-delay: 100ms;
+      }
+
+      .delay-2 {
+        transition-delay: 180ms;
+      }
+
+      @keyframes drift {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      @media (max-width: 1100px) {
+        .hero__layout,
+        .process-grid,
+        .catering-layout,
+        .contact-layout,
+        .menu-zone {
+          grid-template-columns: 1fr;
+        }
+
+        .story-grid,
+        .picks-grid,
+        .quote-grid,
+        .timeline {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .hero__content h1 {
+          max-width: 12ch;
+        }
+
+        .menu-sidebar {
+          position: static;
+        }
+      }
+
+      @media (max-width: 780px) {
+        :root {
+          --header-height: 4.9rem;
+        }
+
+        .topbar {
+          display: none;
+        }
+
+        .menu-toggle {
+          display: inline-flex;
+        }
+
+        .nav {
+          position: absolute;
+          top: calc(100% + 0.7rem);
+          left: 1rem;
+          right: 1rem;
+          display: none;
+          flex-direction: column;
+          align-items: stretch;
+          padding: 1rem;
+          border-radius: 1.4rem;
+          background: rgba(255, 252, 247, 0.97);
+          border: 1px solid rgba(210, 104, 44, 0.12);
+          box-shadow: var(--shadow-strong);
+        }
+
+        .nav.is-open {
+          display: flex;
+        }
+
+        .nav__links {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0.3rem;
+        }
+
+        .nav__links a {
+          padding: 0.35rem 0;
+        }
+
+        .nav__cta {
+          width: 100%;
+        }
+
+        .hero {
+          padding-top: 2.4rem;
+        }
+
+        .hero__metrics,
+        .trust-strip,
+        .story-grid,
+        .picks-grid,
+        .menu-grid,
+        .timeline,
+        .quote-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .section {
+          padding: 4.5rem 0;
+        }
+
+        .section--last {
+          padding-bottom: 10rem;
+        }
+
+        .section-shell,
+        .menu-sidebar,
+        .menu-board,
+        .process-lead,
+        .catering-panel,
+        .contact-card,
+        .cta-panel {
+          padding: 1.6rem;
+        }
+
+        .hero__cta,
+        .catering-panel__actions,
+        .cta-panel__actions {
+          flex-direction: column;
+        }
+
+        .button,
+        .button--small {
+          width: 100%;
+        }
+
+        .floating-card {
+          position: static;
+          width: auto;
+          margin-top: 1rem;
+          animation: none;
+        }
+
+        .hero__summary {
+          grid-template-columns: 1fr;
+        }
+
+        .cta-panel__footer {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .sticky-order {
+          display: flex;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          animation: none !important;
+          transition: none !important;
+        }
+
+        .has-js .reveal,
+        .has-js .reveal.is-visible {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="shell topbar__inner">
+        <p>
+          Open daily <strong data-hours-short>10 AM to 10 PM</strong> in
+          <strong data-location>Abuja, Nigeria</strong>
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" data-order-link>
+          Start an order
+        </a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell header__inner">
+        <a class="brand" href="#main" aria-label="Bake Ville home">
+          <span class="brand__mark">BV</span>
+          <span class="brand__text">
+            <strong>Bake Ville</strong>
+            <span>The Finger Licker</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav class="nav" id="site-nav" data-nav>
+          <div class="nav__links">
+            <a href="#story">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#catering">Catering</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <a
+            class="button button--solid button--small nav__cta"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-order-link
+          >
+            Order on WhatsApp
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="shell hero__layout">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Modern comfort food in Abuja</p>
+            <h1>Polished trays, burgers, and grills for everyday cravings and bigger tables.</h1>
+            <p class="hero__lede">
+              Bake Ville is built for food that feels generous, premium, and
+              easy to order. From signature mandi platters to crowd-friendly
+              trays, every section now pushes the brand forward with a cleaner,
+              more confident experience.
+            </p>
+
+            <div class="hero__cta">
+              <a
+                class="button button--solid"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-order-link
+              >
+                Order via WhatsApp
+              </a>
+              <a class="button button--ghost" href="#menu">Browse the menu</a>
+            </div>
+
+            <div class="hero__metrics">
+              <article class="metric">
+                <span>Open Daily</span>
+                <strong data-hours-short>10 AM to 10 PM</strong>
+              </article>
+              <article class="metric">
+                <span>Best Channel</span>
+                <strong>WhatsApp First</strong>
+              </article>
+              <article class="metric">
+                <span>Serving</span>
+                <strong data-location>Abuja, Nigeria</strong>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal delay-1">
+            <div class="hero__panel">
+              <div class="hero__image-wrap">
+                <img
+                  class="hero__image"
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-mandi-rice-jYosvkC9jjcpf7AuJVktXi.webp"
+                  alt="Signature Mandi Rice from Bake Ville"
+                  data-hero-image
+                  loading="eager"
+                />
+                <div class="hero__badge">
+                  <span>Featured</span>
+                  <strong data-feature-name>Signature Mandi Rice</strong>
+                </div>
+              </div>
+
+              <div class="hero__summary">
+                <div>
+                  <span>Starts From</span>
+                  <strong data-feature-price>&#8358;9,500</strong>
+                </div>
+                <p data-feature-note>
+                  Built for quick WhatsApp orders, premium tray requests, and
+                  polished everyday delivery plans.
+                </p>
+              </div>
+            </div>
+
+            <aside class="floating-card floating-card--top">
+              <span>Group Orders</span>
+              <strong>Office lunches and family trays</strong>
+              <p>Positioned for quick enquiries without making the user hunt for details.</p>
+            </aside>
+
+            <aside class="floating-card floating-card--bottom">
+              <span>Brand Direction</span>
+              <strong>Cleaner, warmer, more premium</strong>
+              <p>A sharper landing page that feels more trustworthy on first scroll.</p>
+            </aside>
+          </div>
+        </div>
+
+        <div class="shell trust-strip reveal delay-2">
+          <div class="trust-chip">Signature Mandi Platters</div>
+          <div class="trust-chip">Fast WhatsApp Ordering</div>
+          <div class="trust-chip">Burger and Grill Favorites</div>
+          <div class="trust-chip">Catering for Groups and Events</div>
+        </div>
+      </section>
+
+      <section class="section" id="story">
+        <div class="shell">
+          <div class="section-header reveal">
+            <p class="section-tag">Why this version works better</p>
+            <h2>A more professional front door for the Bake Ville brand.</h2>
+            <p>
+              The site now tells a clearer story, looks more intentional on
+              mobile and desktop, and gives customers stronger reasons to trust
+              the next order.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card reveal">
+              <span class="story-card__number">01</span>
+              <h3>Stronger first impression</h3>
+              <p>
+                The hero, spacing, and visual hierarchy now feel more premium,
+                helping the brand look established instead of improvised.
+              </p>
+            </article>
+
+            <article class="story-card reveal delay-1">
+              <span class="story-card__number">02</span>
+              <h3>Better conversion flow</h3>
+              <p>
+                Ordering actions stay visible, contact details feel clearer, and
+                the content keeps moving toward WhatsApp instead of stalling.
+              </p>
+            </article>
+
+            <article class="story-card reveal delay-2">
+              <span class="story-card__number">03</span>
+              <h3>Responsive by design</h3>
+              <p>
+                Layouts collapse cleanly for phones, the navigation behaves
+                properly, and mobile users get a persistent call-to-action bar.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="shell">
+          <div class="section-shell">
+            <div class="section-header reveal">
+              <p class="section-tag">Popular picks</p>
+              <h2>Three hero products ready to carry the brand.</h2>
+              <p>
+                These featured cards give the page a more editorial feel while
+                showing the range of Bake Ville at a glance.
+              </p>
+            </div>
+
+            <div class="picks-grid" data-featured-grid></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="shell menu-zone">
+          <aside class="menu-sidebar reveal">
+            <p class="section-tag">Menu</p>
+            <h2>Choose the craving, then start the order.</h2>
+            <p>
+              Switch between categories, see pricing clearly, and jump straight
+              into a pre-filled WhatsApp message when you are ready.
+            </p>
+
+            <div class="menu-note" data-menu-note></div>
+
+            <a
+              class="button button--solid button--block"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-order-link
+            >
+              Start on WhatsApp
+            </a>
+          </aside>
+
+          <div class="menu-board reveal delay-1">
+            <div class="menu-tabs" data-menu-tabs role="tablist" aria-label="Menu categories"></div>
+            <div class="menu-grid" data-menu-grid></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="shell process-grid">
+          <article class="process-lead reveal">
+            <p class="section-tag section-tag--light">How ordering works</p>
+            <h2>Fast for single plates. Reliable for bigger orders.</h2>
+            <p>
+              The page keeps the next step clear whether someone wants one meal,
+              a tray for home, or a catering conversation for a larger event.
+            </p>
+            <div class="process-strip" data-hours>Open daily, 10 AM to 10 PM</div>
+          </article>
+
+          <div class="timeline">
+            <article class="timeline-card reveal">
+              <span class="timeline-card__index">01</span>
+              <h3>Send a quick message</h3>
+              <p>
+                Use WhatsApp to ask about availability, confirm the craving, or
+                start a catering request without extra friction.
+              </p>
+            </article>
+
+            <article class="timeline-card reveal delay-1">
+              <span class="timeline-card__index">02</span>
+              <h3>Confirm pickup or delivery</h3>
+              <p>
+                Share the simple details once and keep the conversation focused
+                on portions, timing, and handoff.
+              </p>
+            </article>
+
+            <article class="timeline-card reveal delay-2">
+              <span class="timeline-card__index">03</span>
+              <h3>Lock in the final order</h3>
+              <p>
+                Bigger tray requests, office meals, and event orders can move
+                ahead with more confidence and less back-and-forth.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="catering">
+        <div class="shell catering-layout">
+          <article class="catering-card reveal">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-burgers-euZiM4vthpUs4Uz9XjRGbc.webp"
+              alt="Bake Ville burger platter"
+              loading="lazy"
+            />
+          </article>
+
+          <article class="catering-panel reveal delay-1">
+            <p class="section-tag">Catering and group orders</p>
+            <h2>Catering that feels ready for the room.</h2>
+            <p>
+              When the order gets bigger than one plate, the brand should still
+              feel easy to trust. This section now gives group enquiries a more
+              serious and capable presentation.
+            </p>
+
+            <div class="catering-panel__list">
+              <div>Office lunches and team meals</div>
+              <div>Birthdays, celebrations, and hosted dinners</div>
+              <div>Tray orders for groups and weekend gatherings</div>
+              <div>Custom conversations for larger event briefs</div>
+            </div>
+
+            <div class="catering-panel__actions">
+              <a
+                class="button button--solid"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-catering-link
+              >
+                Enquire about catering
+              </a>
+              <a class="button button--ghost" href="#" data-phone-link>Call the team</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="shell">
+          <div class="section-header reveal">
+            <p class="section-tag">What this page now communicates</p>
+            <h2>More trust, more clarity, and better mobile confidence.</h2>
+            <p>
+              Even without adding new backend systems, this upgrade makes the
+              business look more prepared, more premium, and easier to order
+              from.
+            </p>
+          </div>
+
+          <div class="quote-grid">
+            <article class="quote-card reveal">
+              <h3>Premium without feeling distant</h3>
+              <p>
+                The new visual language keeps the warmth of the brand while
+                making it feel more established and deliberate.
+              </p>
+              <footer>Brand positioning</footer>
+            </article>
+
+            <article class="quote-card reveal delay-1">
+              <h3>Clearer for first-time visitors</h3>
+              <p>
+                Customers can now understand the offer, browse the menu, and
+                find the ordering path with far less effort.
+              </p>
+              <footer>User flow</footer>
+            </article>
+
+            <article class="quote-card reveal delay-2">
+              <h3>Stronger on smaller screens</h3>
+              <p>
+                The mobile nav, grid behavior, and sticky action bar make the
+                page feel much more intentional on phones.
+              </p>
+              <footer>Responsive behavior</footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--last" id="contact">
+        <div class="shell contact-layout">
+          <article class="contact-card reveal">
+            <p class="section-tag">Contact</p>
+            <h2>Order fast. Ask a question. Plan the next tray.</h2>
+            <p>
+              Phone, Instagram, location, and opening hours are now grouped in
+              one calm section so customers do not have to search for basic
+              details before starting a conversation.
+            </p>
+
+            <div class="contact-list">
+              <a class="contact-row" href="#" data-phone-link>
+                <span>Phone</span>
+                <strong data-phone-text>+234 909 601 2455</strong>
+              </a>
+              <a
+                class="contact-row"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-instagram-link
+              >
+                <span>Instagram</span>
+                <strong data-instagram-handle>@bake_ville.ng</strong>
+              </a>
+              <div class="contact-row">
+                <span>Location</span>
+                <strong data-location>Abuja, Nigeria</strong>
+              </div>
+              <div class="contact-row">
+                <span>Hours</span>
+                <strong data-hours>Open daily, 10 AM to 10 PM</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="cta-panel reveal delay-1">
+            <p class="section-tag section-tag--light">Ready when you are</p>
+            <h2>Turn the next craving into the next conversation.</h2>
+            <p>
+              Keep the final choice simple: start an everyday order, ask about a
+              tray, or open a catering conversation that feels straightforward
+              from the first message.
+            </p>
+
+            <div class="cta-panel__meta">
+              <div>
+                <span>Best Channel</span>
+                <strong>WhatsApp</strong>
+              </div>
+              <div>
+                <span>Ideal For</span>
+                <strong>Daily orders, trays, and event enquiries</strong>
+              </div>
+            </div>
+
+            <div class="cta-panel__actions">
+              <a
+                class="button button--light"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-order-link
+              >
+                Start an order
+              </a>
+              <a
+                class="button button--outline-light"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-catering-link
+              >
+                Ask about catering
+              </a>
+            </div>
+
+            <div class="cta-panel__footer">
+              <span>&copy; <span data-year></span> Bake Ville. All rights reserved.</span>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-instagram-link
+                data-instagram-handle
+              >
+                Instagram
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="sticky-order" aria-label="Quick mobile actions">
+      <a
+        class="button button--solid"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-order-link
+      >
+        Order now
+      </a>
+      <a
+        class="button button--ghost"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-catering-link
+      >
+        Catering
+      </a>
+    </div>
+
+    <script>
+      const SITE_CONFIG = {
+        businessName: "Bake Ville",
+        phoneDisplay: "+234 909 601 2455",
+        phoneHref: "tel:+2349096012455",
+        instagramUrl: "https://instagram.com/bake_ville.ng",
+        instagramHandle: "@bake_ville.ng",
+        whatsappNumber: "2349096012455",
+        location: "Abuja, Nigeria",
+        hoursShort: "10 AM to 10 PM",
+        hoursFull: "Open daily, 10 AM to 10 PM",
+        defaultCategory: "mandi",
+        menu: {
+          mandi: {
+            label: "Mandi",
+            note: "Fragrant rice platters with premium presentation, generous portions, and strong tray-order appeal.",
+            items: [
+              {
+                name: "Signature Mandi Rice",
+                description:
+                  "Fragrant basmati rice with tender grilled chicken, caramelized onions, and slow-built spice.",
+                price: 9500,
+                tag: "Best Seller",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-mandi-rice-jYosvkC9jjcpf7AuJVktXi.webp",
+                featureNote:
+                  "Built for quick WhatsApp orders, premium tray requests, and polished everyday delivery plans.",
+              },
+              {
+                name: "Double Portion Mandi",
+                description:
+                  "A fuller tray for heavier appetites or easy sharing without losing the signature flavor balance.",
+                price: 19000,
+                tag: "Shareable",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-mandi-rice-jYosvkC9jjcpf7AuJVktXi.webp",
+              },
+              {
+                name: "Mandi Tray",
+                description:
+                  "A group-friendly tray for office lunches, family hosting, and celebration tables.",
+                price: 35000,
+                tag: "Large Order",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-mandi-rice-jYosvkC9jjcpf7AuJVktXi.webp",
+              },
+            ],
+          },
+          burgers: {
+            label: "Burgers",
+            note: "Stacked comfort-food favorites designed for quick lunches, easy dinners, and strong visual appeal online.",
+            items: [
+              {
+                name: "The Classic Burger",
+                description:
+                  "Juicy beef, cheddar, crisp lettuce, tomato, and signature sauce on a soft bun.",
+                price: 5500,
+                tag: "Quick Favorite",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-burgers-euZiM4vthpUs4Uz9XjRGbc.webp",
+                featureNote:
+                  "Perfect for comfort-food cravings that need a faster, easier order journey.",
+              },
+              {
+                name: "The Finger Licker",
+                description:
+                  "Double beef, extra cheese, bacon, caramelized onions, and rich house sauce.",
+                price: 7500,
+                tag: "Signature Stack",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-burgers-euZiM4vthpUs4Uz9XjRGbc.webp",
+              },
+              {
+                name: "Burger Combo",
+                description:
+                  "A complete comfort meal with burger, fries, and a cold drink for easy ordering.",
+                price: 8000,
+                tag: "Combo Pick",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-burgers-euZiM4vthpUs4Uz9XjRGbc.webp",
+              },
+            ],
+          },
+          kebabs: {
+            label: "Kebabs",
+            note: "Fire-kissed grills with brighter marinades, balanced sides, and a more premium presentation for repeat orders.",
+            items: [
+              {
+                name: "Grilled Chicken Kebabs",
+                description:
+                  "Tender skewers layered with peppers, onions, and a bright yogurt-style finish.",
+                price: 6500,
+                tag: "Fresh Off The Grill",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-kebabs-9rSLN5xg6oSHT4A9pSxeku.webp",
+                featureNote:
+                  "A cleaner grill category with enough warmth and color to stand out in the page flow.",
+              },
+              {
+                name: "Mixed Kebab Platter",
+                description:
+                  "Chicken and beef skewers with vegetables and dipping sauces for a richer spread.",
+                price: 8500,
+                tag: "Crowd Pleaser",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-kebabs-9rSLN5xg6oSHT4A9pSxeku.webp",
+              },
+              {
+                name: "Kebab Combo",
+                description:
+                  "Grilled skewers with rice, salad, and a drink for a balanced, easy-to-repeat order.",
+                price: 7500,
+                tag: "Meal Set",
+                image:
+                  "https://d2xsxph8kpxj0f.cloudfront.net/310519663618154926/hnuQe3gJxvAJneEmSXr4JS/hero-kebabs-9rSLN5xg6oSHT4A9pSxeku.webp",
+              },
+            ],
+          },
+        },
+      };
+
+      const tabsElement = document.querySelector("[data-menu-tabs]");
+      const menuNoteElement = document.querySelector("[data-menu-note]");
+      const menuGridElement = document.querySelector("[data-menu-grid]");
+      const featuredGridElement = document.querySelector("[data-featured-grid]");
+      const heroImageElement = document.querySelector("[data-hero-image]");
+      const navToggleElement = document.querySelector("[data-nav-toggle]");
+      const navElement = document.querySelector("[data-nav]");
+
+      let activeCategory = SITE_CONFIG.defaultCategory;
+
+      const formatCurrency = value =>
+        `${"\u20A6"}${new Intl.NumberFormat("en-NG", {
+          maximumFractionDigits: 0,
+        }).format(value)}`;
+
+      const createWhatsAppUrl = message =>
+        `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+      const setText = (selector, value) => {
+        document.querySelectorAll(selector).forEach(element => {
+          element.textContent = value;
+        });
+      };
+
+      const setHref = (selector, href) => {
+        document.querySelectorAll(selector).forEach(element => {
+          element.setAttribute("href", href);
+        });
+      };
+
+      const getFeaturedItem = () => SITE_CONFIG.menu[activeCategory].items[0];
+
+      const syncSharedDetails = () => {
+        setText("[data-phone-text]", SITE_CONFIG.phoneDisplay);
+        setText("[data-instagram-handle]", SITE_CONFIG.instagramHandle);
+        setText("[data-location]", SITE_CONFIG.location);
+        setText("[data-hours-short]", SITE_CONFIG.hoursShort);
+        setText("[data-hours]", SITE_CONFIG.hoursFull);
+        setText("[data-year]", String(new Date().getFullYear()));
+
+        setHref("[data-phone-link]", SITE_CONFIG.phoneHref);
+        setHref("[data-instagram-link]", SITE_CONFIG.instagramUrl);
+        setHref(
+          "[data-order-link]",
+          createWhatsAppUrl("Hello Bake Ville, I would like to place an order.")
+        );
+        setHref(
+          "[data-catering-link]",
+          createWhatsAppUrl(
+            "Hello Bake Ville, I would like to enquire about catering for a group order."
+          )
+        );
+      };
+
+      const renderFeaturedGrid = () => {
+        if (!featuredGridElement) return;
+
+        featuredGridElement.innerHTML = Object.values(SITE_CONFIG.menu)
+          .map(category => {
+            const item = category.items[0];
+
+            return `
+              <article class="pick-card reveal">
+                <img src="${item.image}" alt="${item.name}" loading="lazy" />
+                <div class="pick-card__body">
+                  <div class="pick-card__meta">
+                    <span class="pill">${category.label}</span>
+                    <span class="price-pill">${formatCurrency(item.price)}</span>
+                  </div>
+                  <h3>${item.name}</h3>
+                  <p>${item.description}</p>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+      };
+
+      const renderHeroFeature = () => {
+        const featuredItem = getFeaturedItem();
+
+        if (heroImageElement) {
+          heroImageElement.setAttribute("src", featuredItem.image);
+          heroImageElement.setAttribute(
+            "alt",
+            `${featuredItem.name} from ${SITE_CONFIG.businessName}`
+          );
+        }
+
+        setText("[data-feature-name]", featuredItem.name);
+        setText("[data-feature-price]", formatCurrency(featuredItem.price));
+        setText(
+          "[data-feature-note]",
+          featuredItem.featureNote ||
+            "Built for quick orders, polished handoff, and strong repeat appeal."
+        );
+      };
+
+      const renderTabs = () => {
+        if (!tabsElement) return;
+
+        tabsElement.innerHTML = Object.entries(SITE_CONFIG.menu)
+          .map(([key, category]) => {
+            const isActive = key === activeCategory;
+
+            return `
+              <button
+                type="button"
+                class="menu-tab${isActive ? " is-active" : ""}"
+                data-category="${key}"
+                role="tab"
+                aria-selected="${String(isActive)}"
+                tabindex="${isActive ? "0" : "-1"}"
+              >
+                ${category.label}
+              </button>
+            `;
+          })
+          .join("");
+      };
+
+      const renderMenu = () => {
+        const category = SITE_CONFIG.menu[activeCategory];
+
+        if (menuNoteElement) {
+          menuNoteElement.innerHTML = `
+            <strong>${category.label}</strong>
+            <p>${category.note}</p>
+          `;
+        }
+
+        if (!menuGridElement) return;
+
+        menuGridElement.innerHTML = category.items
+          .map(
+            item => `
+              <article class="menu-card reveal">
+                <div class="menu-card__media">
+                  <img src="${item.image}" alt="${item.name}" loading="lazy" />
+                  <div class="menu-card__meta">
+                    <span class="pill">${item.tag}</span>
+                    <span class="price-pill">${formatCurrency(item.price)}</span>
+                  </div>
+                </div>
+                <div class="menu-card__body">
+                  <h3>${item.name}</h3>
+                  <p>${item.description}</p>
+                  <a
+                    class="button button--solid button--block"
+                    href="${createWhatsAppUrl(
+                      `Hello Bake Ville, I would like to order ${item.name}.`
+                    )}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Add to order
+                  </a>
+                </div>
+              </article>
+            `
+          )
+          .join("");
+
+        revealFreshContent(menuGridElement.querySelectorAll(".reveal"));
+      };
+
+      const closeMobileNav = () => {
+        if (!navToggleElement || !navElement) return;
+
+        navToggleElement.setAttribute("aria-expanded", "false");
+        navElement.classList.remove("is-open");
+      };
+
+      const setupNavigation = () => {
+        if (!navToggleElement || !navElement) return;
+
+        navToggleElement.addEventListener("click", () => {
+          const isOpen = navElement.classList.toggle("is-open");
+          navToggleElement.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        navElement.querySelectorAll('a[href^="#"]').forEach(link => {
+          link.addEventListener("click", closeMobileNav);
+        });
+
+        window.addEventListener("keydown", event => {
+          if (event.key === "Escape") {
+            closeMobileNav();
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 780) {
+            closeMobileNav();
+          }
+        });
+      };
+
+      const setupTabs = () => {
+        if (!tabsElement) return;
+
+        tabsElement.addEventListener("click", event => {
+          const button = event.target.closest("[data-category]");
+
+          if (!(button instanceof HTMLButtonElement)) return;
+
+          activeCategory = button.dataset.category || SITE_CONFIG.defaultCategory;
+          renderTabs();
+          renderHeroFeature();
+          renderMenu();
+        });
+      };
+
+      let revealObserver;
+
+      const revealFreshContent = elements => {
+        elements.forEach(element => {
+          if (!(element instanceof HTMLElement)) return;
+
+          element.classList.remove("is-visible");
+
+          if (revealObserver) {
+            revealObserver.observe(element);
+          } else {
+            element.classList.add("is-visible");
+          }
+        });
+      };
+
+      const setupReveal = () => {
+        const revealElements = document.querySelectorAll(".reveal");
+
+        if (!("IntersectionObserver" in window)) {
+          revealElements.forEach(element => element.classList.add("is-visible"));
+          return;
+        }
+
+        revealObserver = new IntersectionObserver(
+          entries => {
+            entries.forEach(entry => {
+              if (!entry.isIntersecting) return;
+
+              entry.target.classList.add("is-visible");
+              revealObserver.unobserve(entry.target);
+            });
+          },
+          {
+            threshold: 0.16,
+            rootMargin: "0px 0px -30px 0px",
+          }
+        );
+
+        revealElements.forEach(element => revealObserver.observe(element));
+      };
+
+      const init = () => {
+        syncSharedDetails();
+        renderFeaturedGrid();
+        renderHeroFeature();
+        renderTabs();
+        renderMenu();
+        setupNavigation();
+        setupTabs();
+        setupReveal();
+      };
+
+      init();
+    </script>
+  </body>
+</html>
